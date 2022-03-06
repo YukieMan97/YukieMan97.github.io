@@ -38,41 +38,41 @@ export default function NavigationBar() {
                         <Nav className='me-auto nav-bar-padding'>
                             <Nav.Item className='about link-margin'>
                                 <NavLink
-                                    onClick={() => Scroll.scrollTo('about', {
-                                        smooth: true,
-                                        offset: -70,
-                                        duration: 500,
-                                    })}
+                                    // onClick={() => Scroll.scrollTo('about', {
+                                    //     smooth: true,
+                                    //     offset: -70,
+                                    //     duration: 500,
+                                    // })}
                                     className='link-colour'
                                     to="/about">About</NavLink>
                             </Nav.Item>
                             <Nav.Item className='project link-margin'>
                                 <NavLink
-                                    onClick={() => Scroll.scrollTo('projects', {
-                                        smooth: true,
-                                        offset: -70,
-                                        duration: 500,
-                                    })}
+                                    // onClick={() => Scroll.scrollTo('projects', {
+                                    //     smooth: true,
+                                    //     offset: -70,
+                                    //     duration: 500,
+                                    // })}
                                     className='link-colour'
                                     to="/projects">Projects</NavLink>
                             </Nav.Item>
                             <Nav.Item className='hackathon link-margin'>
                                 <NavLink
-                                    onClick={() => Scroll.scrollTo('hackathons', {
-                                        smooth: true,
-                                        offset: -70,
-                                        duration: 500,
-                                    })}
+                                    // onClick={() => Scroll.scrollTo('hackathons', {
+                                    //     smooth: true,
+                                    //     offset: -70,
+                                    //     duration: 500,
+                                    // })}
                                     className='link-colour'
                                     to="/hackathons"> Hackathons </NavLink>
                             </Nav.Item>
                             <Nav.Item className='work-experience link-margin'>
                                 <NavLink
-                                    onClick={() => Scroll.scrollTo('work-experience', {
-                                        smooth: true,
-                                        offset: -70,
-                                        duration: 500,
-                                    })}
+                                    // onClick={() => Scroll.scrollTo('work-experience', {
+                                    //     smooth: true,
+                                    //     offset: -70,
+                                    //     duration: 500,
+                                    // })}
                                     className='link-colour'
                                     to="/work-experience"> Work Experience </NavLink>
                             </Nav.Item>
