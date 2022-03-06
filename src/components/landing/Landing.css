@@ -1,0 +1,258 @@
+.profile-pic {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.align-center-pic {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-panel {
+    padding: 10px;
+}
+
+.highlight-project {
+    color: rgb(1, 89, 177) !important;
+    /* color: rgb(30,144,255); */
+}
+
+.carousel-item {
+    overflow: hidden;
+}
+
+.carousel-img {        
+    width:  auto;
+    height: 50vh;
+    object-fit:cover;
+}
+
+.img-center {
+    text-align:center; 
+}
+
+.info-top-padding {
+    padding-top: 20px;
+}
+
+.panel-bottom-padding {
+    padding-bottom: 50px;
+}
+
+.project-panel-colour {
+    background-color: rgba(1, 89, 177, 0.055);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hackathon-panel-colour {
+    background-color: rgba(1, 177, 80, 0.055);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.highlight-hackathon {
+    color: rgb(1, 177, 30) !important;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.we-panel-colour {
+    background-color: rgba(177, 1, 89, 0.055);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.highlight-we {
+    color: rgb(177, 1, 104) !important;
+}
+
+.highlight-about {
+    color: rgb(146, 118, 212) !important;
+}
+
+.highlight-about-dark {
+    color: rgb(118, 89, 184) !important;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+/* .higlight-about-button {
+    color: rgb(146, 118, 212) !important;
+} */
+
+.align-logo-text {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.padding-left {
+    padding-left: 10px;
+}
+
+.round-img {
+    border-radius: 10px;
+}
+
+.phone-carousel {
+    width: 200px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.animted-gif {
+    width: 75px;
+    height: 75px;
+}
+
+.first-place-padding {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.animate-speed {
+    --animate-duration: 5s;
+}
+
+.flip-img {
+    transform: scaleX(-1);
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.title-info {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel-container {
+    padding-bottom: 40px;
+}
+
+.tool-p {
+    font-size: 13px;
+    text-align: right;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.intro-panel {
+    margin-right: 10vh;
+}
+
+.nav-bar-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.arrow-margin {
+    margin-top: 10vh;
+    margin-left: 45%;
+}
+
+.about .active {
+    color:rgb(134, 87, 243) !important;
+}
+
+.about .link-colour:hover  {
+    color:rgb(134, 87, 243)  !important;
+}
+
+.project .active {
+    color:rgb(53, 149, 245) !important;
+}
+
+.project .link-colour:hover {
+    color:rgb(53, 149, 245) !important;
+}
+
+.hackathon .active {
+    color:rgb(1, 177, 30) !important;
+}
+
+.hackathon .link-colour:hover {
+    color:rgb(1, 177, 30) !important;
+}
+
+.work-experience .active {
+    color:rgb(177, 1, 104) !important;
+}
+
+.work-experience .link-colour:hover {
+    color:rgb(177, 1, 104) !important;
+}
+
+.link-margin {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.link-colour {
+    color: black;
+}
+
+.nav-bar-bg {
+    background-color: rgba(255, 0, 0, 0.0);
+}
+
+.nav-bar-bg-white {
+    background-color: white;
+}
+
+.about-card {
+    width: 100%;
+    height: 100%;
+    margin-left: 5vw;
+}
+
+.panel-padding {
+    margin-top: 20vh;
+    padding-bottom: 20px;
+}
+
+
+.info-panel {
+    margin-left: 5vw;
+}
+
+.top-bot-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button-right {
+    margin-right: auto;
+}
+
+.network-spacing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

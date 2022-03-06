@@ -1,0 +1,28 @@
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    background-color: transparent;
+    text-decoration: none;
+  }
+a.landing:link {
+    color: rgb(144,144,144);
+  }
+  
+  a.landing:visited {
+    color: rgb(144,144,144);
+  }
+
+  a.about:link {
+    color:  black;
+  }
+  
+  a.about:visited {
+    color: black;
+  }
+
+  .button-space {
+    margin: 5px;
+  }

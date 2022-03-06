@@ -1,0 +1,72 @@
+.profile-pic-about {
+    width: auto;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo-about {
+    width: auto;
+    height: 250px;
+}
+
+.first-intro-spacing {
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.intro-spacing {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.border-test {
+    border: 1px solid black;
+}
+
+.margin-skills {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.margin-interest-l {
+    margin-right: 10vw;
+    padding-bottom: 20px;
+}
+
+.margin-interest-r {
+    margin-left: 10vw;
+    padding-bottom: 20px;
+}
+
+.margin-img-l {
+    float: left;
+}
+
+.margin-img-r {
+    float: right;
+}
+
+.interest-margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-section-padding {
+    padding: 20px;
+}
+
+.about-me-padding {
+    padding-bottom: 30px;
+}
+
+.interest-pic {
+    width: 100%;
+    height: auto;
+}
+
+.about-title {
+    margin: 8vh;
+}
