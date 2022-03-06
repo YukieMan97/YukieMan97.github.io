@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import RouteDirectory from './routes';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import NavigationBar from './components/NavigationBar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter basename={"/YukieMan97.github.io"}>
       <NavigationBar />
         <RouteDirectory />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
