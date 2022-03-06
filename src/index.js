@@ -8,7 +8,7 @@ import NavigationBar from './components/NavigationBar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename={"/YukieMan97.github.io"}>
+    <HashRouter>
       <NavigationBar />
         <RouteDirectory />
     </HashRouter>
