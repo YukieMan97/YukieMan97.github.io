@@ -32,22 +32,38 @@ export default function IntroPanel() {
                                 </h2>
                                 <br />
                                 <Container className='animate__animated animate__fadeIn animate__delay-1s'>
-                                    <h3 className='highlight-we'>A little bit about myself...</h3>
-                                    <p>I will be graduating <span className='highlight-project'> May 2022 </span>
-                                        at <span className='highlight-project'> UBC in Computer Science</span>. I met and
-                                        worked with many amazing peers through classes, hackathons, and mutuals.
-                                        Hoping to find a great work environment where I can grow further as a
-                                        developer.</p>
-                                    <p>I've mainly been working with <span className='highlight-project'> React </span>
-                                        and enjoy it a lot! I would also like more experience with backend. Some other
-                                        languages and tools I'm familiar with are...</p>
-                                    <ul>
-                                        <li>Java</li>
-                                        <li>JavaScript</li>
-                                        <li>TypeScript</li>
-                                        <li>MongoDB</li>
-                                        <li>Visual Studio Code</li>
-                                    </ul>
+                                    <div className='intro-padding'>
+                                        <h3 className='highlight-we'>A little bit about myself...</h3>
+                                        <p>I will be graduating <span className='highlight-project'> May 2022 </span>
+                                            at <span className='highlight-project'> UBC with a </span>
+                                            <span className='highlight-project'>BSc in Computer Science</span>. I met and
+                                            teamed up with many amazing peers through classes, hackathons, and mutuals.
+                                            Hoping to find a great work environment where I can grow further as a
+                                            developer.
+                                        </p>
+                                        <p> Although my main focus is backend, I've recently been working with
+                                            <span className='highlight-project'> React/JavaScript </span>
+                                            and enjoy it a lot! Since I didn't have any frontend experience 
+                                            at the time and my teammates wanted to work on the backend, 
+                                            I decided to learn React. 
+                                        </p>
+                                        <p>
+                                            In my current project, I'm working on the backend
+                                            with <span className='highlight-project'> Java </span> and
+                                            <span className='highlight-project'> Spring Boot</span>.
+                                            <span className='highlight-project'> Java </span> has always been my favourite
+                                            programming language because of its organized structure, garbage collector, and
+                                            ability to handle exceptions.
+                                        </p>
+
+                                        <p>Some other languages and tools I'm familiar with are...</p>
+                                        <ul>
+                                            <li>Python</li>
+                                            <li>TypeScript</li>
+                                            <li>MongoDB</li>
+                                            <li>Visual Studio Code</li>
+                                        </ul>
+                                    </div>
                                 </Container>
                                 <br />
                                 <Button
@@ -74,10 +90,10 @@ export default function IntroPanel() {
                     animate__slower
                     highlight-project
                     ' />
-                    </HashLink>
+                        </HashLink>
                     </div>
-            </div>
-        </Scene>
+                </div>
+            </Scene>
         </Controller >
     )
 }
