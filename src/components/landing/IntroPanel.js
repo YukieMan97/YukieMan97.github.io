@@ -1,5 +1,6 @@
 import { Scene, Controller } from 'react-scrollmagic';
 import { Button, Container } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import 'animate.css';
@@ -15,7 +16,7 @@ export default function IntroPanel() {
                 pin={{ pushFollowers: false }}
                 triggerHook={0.25}
                 offset={400}
-                >
+            >
                 <div className='panel-padding'>
                     <Grid container spacing={2}>
                         <Grid className='img-center' item lg={3}>
@@ -60,17 +61,23 @@ export default function IntroPanel() {
                         </Grid>
                     </Grid>
                     <div className='arrow-margin'>
-                        <KeyboardArrowDownIcon
-                            fontSize='large'
-                            className='animate__animated
+                        <HashLink
+                            className='img-center'
+                            to={`/#project-panel`}
+                            scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: "start" })}
+                        >
+                            <KeyboardArrowDownIcon
+                                fontSize='large'
+                                className='animate__animated
                     animate__fadeInDown 
                     animate__infinite
                     animate__slower
                     highlight-project
                     ' />
+                    </HashLink>
                     </div>
-                </div>
-            </Scene>
-        </Controller>
+            </div>
+        </Scene>
+        </Controller >
     )
 }

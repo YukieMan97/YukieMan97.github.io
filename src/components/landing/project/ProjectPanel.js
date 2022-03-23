@@ -9,7 +9,7 @@ import DisplayProjectInPanel from './DisplayProjectInPanel';
 export default function ProjectPanel() {
     let projects = getProjects();
     return (
-        <div className='panel-bottom-padding'>
+        <div id='project-panel' className='panel-bottom-padding'>
             <Controller>
                 <Scene
                     duration={1}

@@ -1,5 +1,8 @@
 .project-margin {
-    margin: 100px;
+    margin-top: -10vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
 
 .project-padding {

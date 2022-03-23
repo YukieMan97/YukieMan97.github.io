@@ -4,6 +4,7 @@ import ProjectPanel from './components/landing/project/ProjectPanel';
 import HackathonPanel from './components/landing/hackathon/HackathonPanel';
 import WorkExperiencePanel from './components/landing/work-experience/WorkExperiencePanel';
 import './components/landing/Landing.css';
+import './App.css';
 
 function App() {
   window.addEventListener("scroll", reveal);
